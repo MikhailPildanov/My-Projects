@@ -1,0 +1,26 @@
+{% extends "cars/layout.html" %}
+{% load static %}
+{% load humanize %}
+
+
+{% block content %}
+  <h1 class="profile_h1">Hello, {{ user.username }}</h1>
+  <div class="">
+    {% for car in cars %}
+            <a class="d-flex justify-content-between p-3 border" href="{{ car.get_absolute_url }}">
+               <div>
+                   <img src="{{ car.image.url }}" alt="" width="200" height="150" class="border border-danger rounded-top rounded-bottom">
+               </div>
+               <div class="fs-5 fw-bold">
+                {{ car }}
+               </div>
+               <div class="fs-5">
+                   <div>{{ car.price|intcomma }} ₽</div>
+                   <div>{{ car.published_at }}</div>
+               </div>
+            </a>
+    {% endfor %}    
+    </div>
+         
+</div>
+{% endblock %}

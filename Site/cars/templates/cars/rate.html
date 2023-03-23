@@ -1,0 +1,23 @@
+{% extends 'cars/layout.html' %}
+
+{% block title %}Rate{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Оценивание авто</h1>
+        <form method="post">
+            {% csrf_token %}
+            <table>
+                {{ form.as_table }}    
+            </table>
+            <button class="btn btn-success btn_rate" type="submit">Оценить</button>            
+        </form>
+    </div>
+    {% if rating %}
+        <div>Средняя цена: {{ average_price }}</div>
+        <div>Оценка: {{ rating }}</div>
+    {% endif %}
+    {% if error %}
+    <div class="alert alert-danger">{{ error }}</div>
+    {% endif %}
+{% endblock %}

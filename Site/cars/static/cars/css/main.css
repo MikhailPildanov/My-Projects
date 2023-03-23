@@ -1,0 +1,110 @@
+body {
+    background: #adb5bd;
+}
+
+aside {
+    /* float: left; */
+    background: #181818;
+    /* width: 20%; */
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+}
+
+aside img {
+    width: 80px;
+    float: left;
+    margin-left: -10px;
+}
+aside .logo {
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 28px;
+    margin-left: 25px;
+}
+
+aside ul {list-style:none;}
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main {
+    height: 100vh;
+    max-width: 90%;
+}
+
+main .features {
+    float: left;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {font-size: 50px;}
+main .features p {max-width: 400px; margin: 20px auto;}
+
+.alert-warning {
+    float: left;
+    clear:both;
+    width: 400px;
+    margin: 20px 32%;
+    text-align: left;
+}
+
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.button1 {
+    margin-left: 275px; 
+    margin-top: 10px;
+}
+.button2{
+    margin-left: 170px;
+}
+.fs-5 {
+    color: black;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+.filter-panel {
+    padding-top: -10px;
+}
+.create_h1{
+    margin-left: 120px;
+}
+.btn_create{
+    margin-left: 50px;
+}
+.profile_h1{
+    margin-left: 37.5%;
+}
+.btn_delete{
+    margin-left: 25%;
+}
+.btn_rate{
+    margin-top: 10px;
+    margin-left: -150px;
+}

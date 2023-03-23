@@ -1,0 +1,17 @@
+{% extends 'cars/layout.html' %}
+
+{% block title %}Форма по добавлению объявления{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1 class="create_h1">Форма по добавлению объявления</h1>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <table>
+                {{ form.as_table }}    
+            </table>
+            
+            <button class="btn btn-success btn_create" type="submit">Добавить объявление</button>            
+        </form>
+    </div>
+{% endblock %}

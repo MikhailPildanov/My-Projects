@@ -1,0 +1,20 @@
+
+{% extends "cars/layout.html" %}
+{% load static %}
+
+{% comment %} {% block styles %}
+  <style>
+    .container {}
+  </style>
+{% endblock %} {% endcomment %}
+
+{% block content %}
+<form method="post">
+    {% csrf_token %}
+    <div class = "reg">
+     {{ form.as_p }}  
+    </div>
+      
+    <input class="button2" type="submit" value="Зарегистрироваться">
+</form>
+{% endblock %}

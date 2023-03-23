@@ -1,0 +1,33 @@
+{% extends 'cars/layout.html' %}
+{% load humanize %}
+
+{% block title %}{{ car }}{% endblock %}
+
+{% block content %}
+
+<div class="p-3 border">
+    <div class="d-flex justify-content-between">
+        <div>
+            <img src="{{ car.image.url }}" alt="" width = "200" height = "150" class="border border-danger rounded-top rounded-bottom">
+        </div>
+        <div class="fs-5 fw-bold">
+        {{ car }}
+        
+        </div>
+        <div class="fs-5">
+            <div>{{ car.price|intcomma }} ₽</div>
+            <div>{{ car.published_at }}</div>
+        </div>
+    
+    </div>
+    <div class="border-top fs-4">{{ car.description}}</div>
+    
+    {% if request.user == car.user %}
+    <form action="{% url 'cars:delete' car.id %}" method="post">
+        {% csrf_token %}
+        <button class="btn btn-danger btn_delete">Удалить</button>
+    </form>
+    {% endif %}
+</div>
+             
+{% endblock %}
