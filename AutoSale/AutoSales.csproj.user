@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\Mikhail\source\repos\AutoSales\AutoSales\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="AddTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Add_advt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Add_auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Add_DTP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Advt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DTP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="log_in.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Panel_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="sign_up.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
