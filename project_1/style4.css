@@ -1,0 +1,364 @@
+/*.col {
+    background-color: #eee;
+    border:  solid 1px #aaa;
+}*/
+*{
+    font-family: 'Roboto', serif;
+}
+
+.block {
+background-color: #eee;
+border: #aaa;
+padding: 20px;
+text-align: center;
+height: 100%;
+}
+body {
+padding-top: 10px;
+
+}
+
+.height45 {
+min-height: 50%;
+}
+.select{
+max-width: 95%;
+}
+.border1 {
+border: 1px solid black;
+
+}
+.heightVH35 {
+height: 35vh;
+}
+.heightVH65 { 
+height: 55vh;
+}
+.heightVH100{
+    height:  90vh;
+}
+.heightVH15 {
+max-height: 10vh;
+}
+.row_up_left_up h2 {
+font-size: 2vw;
+}
+.row_up_left_down {
+text-align: center;
+}
+.row_up_left_down h2 {
+font-size: 1vw;
+}
+.button_link1{
+position: relative;
+top: 5.5vw;
+left: 47vw;
+font-size: 4vw;
+}
+
+
+.chart-skills {
+margin: 0 auto;
+padding: 0;
+list-style-type: none;
+}
+
+.chart-skills *,
+.chart-skills::before {
+box-sizing: border-box;
+}
+
+
+/* CHART-SKILLS STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.chart-skills {
+position: relative;
+width: 18vw;
+height: 9vw;
+overflow: hidden;
+top: 20%;
+}
+
+.chart-skills::before,
+.chart-skills::after {
+position: absolute;
+}
+
+.chart-skills::before {
+content: '';
+width: inherit;
+height: inherit;
+border: 2.4vw solid rgba(211, 211, 211, .3);
+border-bottom: none;
+border-top-left-radius: 9vw;
+border-top-right-radius: 9vw;
+}
+
+.chart-skills::after {
+content: '0.63';
+left: 50%;
+bottom: 1.5vw;
+transform: translateX(-50%);
+font-size: 1.1rem;
+font-weight: bold;
+color: cadetblue;
+}
+
+.chart-skills li {
+position: absolute;
+top: 100%;
+left: 0;
+width: inherit;
+height: inherit;
+border: 2.4vw solid;
+border-top: none;
+border-bottom-left-radius: 175px;
+border-bottom-right-radius: 175px;
+transform-origin: 50% 0;
+transform-style: preserve-3d;
+}
+
+.chart-skills li:nth-child(1) {
+z-index: 4;
+border-color: #0dcaf0;
+transform: rotate(45deg);
+}
+
+.col_up_right h3 {
+text-align: center;
+margin-bottom: -20px;
+font-size: 1.5vw;
+}
+
+.cols {
+color: white;
+display: flex;
+justify-content: space-around;
+flex-wrap: nowrap;
+flex-direction: row;
+height: 60%;
+align-items: flex-end;
+text-align: center;
+margin-bottom: 5%;
+padding-bottom: 50px;
+}
+.col_1 {
+position: relative;
+width: 10%;
+height: 55%;
+background-color: darkcyan;
+
+}
+.col_1::after {
+position: absolute;
+content: "Заведующий сектором...";
+color: black;
+top: 130%;
+left: -90%;
+width: 200%;
+transform: rotate(-45deg);
+font-size: 0.75vw;
+}
+.col_2 {
+position: relative;
+width: 10%;
+height: 52%;
+background-color: darkcyan;
+
+}
+.col_2::after {
+position: absolute;
+content: "Инженер-программист";
+color: black;
+top: 130%;
+left: -90%;
+width: 200%;
+transform: rotate(-45deg);
+font-size: 0.75vw;
+}
+.col_3 {
+position: relative;
+width: 10%;
+height: 50%;
+background-color: darkcyan;
+
+}
+.col_3::after {
+position: absolute;
+content: "Специалист по кадрам";
+color: black;
+top: 130%;
+left: -90%;
+width: 200%;
+transform: rotate(-45deg);
+font-size: 0.75vw;
+}
+.col_4 {
+position: relative;
+width: 10%;
+height: 48%;
+background-color: darkcyan;
+}
+.col_4::after {
+position: absolute;
+content: "Юрист-консультант";
+color: black;
+top: 130%;
+left: -90%;
+width: 200%;
+transform: rotate(-45deg);
+font-size: 0.75vw;
+}
+.col_5 {
+position: relative;
+width: 10%;
+height: 43%;
+background-color: darkcyan;
+
+}
+.col_5::after {
+position: absolute;
+content: "Инженер службы/участ...";
+color: black;
+top: 135%;
+left: -120%;
+width: 300%;
+transform: rotate(-45deg);
+font-size: 0.75vw;
+}
+
+.col_down_left {
+text-align: center;
+flex-wrap: nowrap;
+display: flex;
+align-content: space-around;
+flex-direction: column;
+min-height: 65vh;
+}
+.col_down_left h4 {
+padding-top: 80px;
+font-size: 1.5vw;
+}
+.col_down_left h1 {
+font-size: 2vw;
+}
+
+.cols2 {
+color: white;
+display: flex;
+justify-content: space-around;
+flex-wrap: nowrap;
+flex-direction: column;
+height: 80%;
+align-items: flex-start;
+}
+.col_11 {
+position: relative;
+width: 70%;
+height: 20%;
+background-color: darkcyan;
+margin: 0 0 0 10%;
+}
+.col_11::after {
+content: "111";
+position: absolute;
+top: 35%;
+left: 100%;
+color: black;
+}
+.col_11::before {
+content: "Средний";
+position: absolute;
+top: -25px;
+left: 0px;
+color: black;
+}
+.col_22 {
+position: relative;
+width: 6%;
+height: 20%;
+background-color: darkcyan;
+margin: 0 0 0 10%;
+}
+.col_22::after {
+content: "3";
+position: absolute;
+top: 35%;
+left: 130%;
+color: black;
+}
+.col_22::before {
+content: "Высокий";
+position: absolute;
+top: -25px;
+left: 0px;
+color: black;
+}
+.col_33 {
+position: relative;
+width: 4%;
+height: 20%;
+background-color: darkcyan;
+margin: 0 0 0 10%;
+}
+.col_33::after {
+content: "4";
+position: absolute;
+top: 35%;
+left: 130%;
+color: black;
+}
+.col_33::before {
+content: "Низкий";
+position: absolute;
+top: -25px;
+left: 0px;
+color: black;
+}
+
+.col_down_right h1 {
+text-align: center;
+font-size: 2vw;
+}
+.col_down_right h4 {
+position: relative;
+text-align: center;
+font-size: 1.5vw;
+bottom: 2%
+}
+.color1 {
+color: #ccc !important;
+}
+.row_link{
+display: flex !important;
+flex-flow: row nowrap !important;
+justify-content: center;
+position: relative;
+
+
+}
+.links{
+position: fixed;
+left: 48vw;
+bottom: 0vw;
+display: flex;
+flex-flow: row nowrap;
+font-size: 1vw;
+
+}
+.color_left{
+color: #ccc;
+margin-right: 5px;
+}
+.links a{
+text-decoration:none;
+color: black;
+margin-left: 5px;
+
+}
+
+
+
+
+

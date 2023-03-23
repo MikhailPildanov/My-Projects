@@ -1,0 +1,1168 @@
+*{
+    font-family: 'Roboto', serif;
+}
+
+.block {
+background-color: #eee;
+border: #aaa;
+padding: 20px;
+text-align: center;
+height: 100%;
+}
+
+body {
+   padding-top: 10px;
+}
+
+.border1 {
+   border: 1px solid black;
+ 
+}
+
+.heightVH12{
+    height: 12vh;
+}
+.heightVH18{
+    height: 18vh;
+}
+.heightVH28{
+    height: 28vh;
+}
+
+.heightVH35 {
+   height: 36vh;
+}
+.heightVH65 {
+   height: 56vh;
+}
+.color1 {
+    color: #ccc !important;
+}
+.row_up_left_up h4{
+    font-size: 1.2vw;
+}
+.row_up_left_mid h4{
+    font-size: 1.2vw;
+}
+.row_up_left_down h4{
+    font-size: 1.2vw;
+}
+.row_up_mid_left_up{
+    text-align: center;
+}
+.row_up_mid_left_up h1{
+    position: relative;
+    font-size: 3vw;
+    top: 30%;
+}
+.row_up_mid_left_up h2{
+    position: relative;
+    font-size: 1.2vw;
+    top: 10%;
+}
+.row_up_mid_left_down{
+    text-align: center;
+}
+.row_up_mid_left_down h3{
+    font-size: 1.2vw;
+}
+.row_up_mid_right h3{
+    font-size:  1.2vw;
+    text-align: center;
+}
+
+.row_up_mid_right h4{
+    position: relative;
+    font-size:  0.7vw;
+    text-align: center;
+    top:-5%
+}
+.cols {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 80%;
+    align-items: flex-end;
+    text-align: center;
+    margin-bottom: 5%;
+    padding-bottom: 50px;
+    position: relative;
+}
+.cols::before{
+    position: absolute;
+    content: "Количество";
+    color: black;
+    left: -7%;
+    top: 50%;
+    transform: rotate(270deg);
+    font-size: 0.8vw;
+}
+.col_1 {
+    position: relative;
+    width: 18%;
+    height: 65%;
+    background-color: darkcyan;
+    top: 12%;    
+}
+.col_1::after {
+    position: absolute;
+    content: "Средний";
+    color: black;
+    top: 100%;
+    left: -50%;
+    width: 200%;
+    font-size: 0.75vw;
+}
+.col_1::before {
+    position: absolute;
+    content: "48";
+    color: black;
+    top: -20%;
+    left: -50%;
+    width: 200%;
+    font-size: 0.75vw;
+}
+.col_2 {
+    position: relative;
+    width: 18%;
+    height: 52%;
+    background-color: darkcyan;
+    top: 12%;
+
+}
+.col_2::after {
+    position: absolute;
+    content: "Низкий";
+    color: black;
+    top: 100%;
+    left: -50%;
+    width: 200%;
+    font-size: 0.75vw;
+}
+.col_2::before {
+    position: absolute;
+    content: "37";
+    color: black;
+    top:-25%;
+    left: -50%;
+    width: 200%;
+    font-size: 0.75vw;
+}
+.col_3 {
+    position: relative;
+    width: 18%;
+    height: 45%;
+    background-color: darkcyan;
+    top: 12%;
+
+}
+.col_3::after {
+    position: absolute;
+    content: "Высокий";
+    color: black;
+    top: 100%;
+    left: -50%;
+    width: 200%;
+    font-size: 0.75vw;
+}
+.col_3::before {
+    position: absolute;
+    content: "33";
+    color: black;
+    top:-25%;
+    left: -50%;
+    width: 200%;
+    font-size: 0.75vw;
+}
+.row_up_right h2{
+    font-size: 1.2vw;
+    text-align: center;
+}
+.row_up_right h3{
+    position: relative;
+    font-size: 0.8vw;
+    text-align: center;
+    top: 3%;
+}
+.span_main{
+    font-size: 0.9vw;
+}
+.cols2 {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 60%;
+    align-items: flex-end;
+    text-align: center;
+    margin-bottom: 5%;
+    padding-bottom: 50px;
+    position: relative;
+}
+.cols2::before{
+    position: absolute;
+    content: "Среднее значение";
+    color: black;
+    left: -11%;
+    top: 50%;
+    transform: rotate(270deg);
+    font-size: 0.7vw;
+}
+.col_11 {
+    position: relative;
+    width: 14%;
+    height: 65%;
+    background-color: darkcyan;
+    
+}
+.col_11::after {
+    position: absolute;
+    content: "Заведующий сектором...";
+    color: black;
+    top: 120%;
+    left: -50%;
+    width: 150%;
+    transform: rotate(-45deg);
+    font-size: 0.5vw;
+}
+.col_22 {
+    position: relative;
+    width: 14%;
+    height: 52%;
+    background-color: darkcyan;
+
+}
+.col_22::after {
+    position: absolute;
+    content: "Инженер-программист";
+    color: black;
+    top: 120%;
+    left: -50%;
+    width: 150%;
+    transform: rotate(-45deg);
+    font-size: 0.5vw;
+}
+.col_33 {
+    position: relative;
+    width: 14%;
+    height: 50%;
+    background-color: darkcyan;
+
+}
+.col_33::after {
+    position: absolute;
+    content: "Специалист по кадрам";
+    color: black;
+    top: 130%;
+    left: -50%;
+    width: 150%;
+    transform: rotate(-45deg);
+    font-size: 0.5vw;
+}
+.col_44 {
+    position: relative;
+    width: 14%;
+    height: 48%;
+    background-color: darkcyan;
+}
+.col_44::after {
+    position: absolute;
+    content: "Юрист-консультант";
+    color: black;
+    top: 125%;
+    left: -30%;
+    width: 140%;
+    transform: rotate(-45deg);
+    font-size: 0.5vw;
+}
+.col_55 {
+    position: relative;
+    width: 14%;
+    height: 43%;
+    background-color: darkcyan;
+
+}
+.col_55::after {
+    position: absolute;
+    content: "Инженер службы/участ...";
+    color: black;
+    top: 125%;
+    left: -30%;
+    width: 130%;
+    transform: rotate(-45deg);
+    font-size: 0.5vw;
+}
+.row_down_left_up h2{
+    font-size: 1.2vw;
+    text-align: center;
+}
+.margin_bottom{
+    margin-bottom: 5px !important;
+}
+.cols3 {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 70%;
+    max-width: 80% !important; 
+    align-items: flex-start;
+    position: relative;
+    top: 60%;
+}
+.cols3::before{
+    position: absolute;
+    content: "Название теста";
+    color: black;
+    left: -5%;
+    top: 35%;
+    transform: rotate(270deg);
+    font-size: 0.7vw;
+}
+.col_111 {
+    position: relative;
+    width: 60%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_111::before {
+    width: 350%;
+    content: "Нервно-психическо...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_222 {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_222::before {
+    width: 100%;
+    content: "Психологический с...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_333 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_333::before {
+    width: 100%;
+    content: "Лидерские компете...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_444 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_444::before {
+    width: 100%;
+    content: "Уровень развития п...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_555 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+
+}
+
+.col_555::before {
+    width: 100%;
+    content: "Уровень зрительно...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_666 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_666::before {
+    width: 100%;
+    content: "Отношения к обяза...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_777 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_777::before {
+    width: 100%;
+    content: "Мотивация успешн...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_888 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_888::before {
+    width: 100%;
+    content: "Самоэффективность";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_999 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_999::before {
+    width: 100%;
+    content: "Готовность к риску";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_1000 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_1000::before {
+    width: 100%;
+    content: "Уровень развития п...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_1100 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_1100::before {
+    width: 100%;
+    content: "Мотивация к избега...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_1200 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_1200::before {
+    width: 100%;
+    content: "Управленческие ко...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_1300 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_1300::before {
+    width: 100%;
+    content: "Аналитическое и и...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_1400 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_1400::before {
+    width: 100%;
+    content: "Мотивация к успеху";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_1500 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_1500::before {
+    width: 100%;
+    content: "Продуктивное и ре...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_1600 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_1600::before {
+    width: 100%;
+    content: "Поведение в стрес...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_1700 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_1700::before {
+    width: 100%;
+    content: "Уровень развития п...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_1800 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_1800::before {
+    width: 100%;
+    content: "Пространственное ...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_1900 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_1900::before {
+    width: 100%;
+    content: "Проективаное и реа...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_2000 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_2000::before {
+    width: 100%;
+    content: "Аналитическое мы...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_2100 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_2100::before {
+    width: 100%;
+    content: "Коммуникативные...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_2200 {
+    position: relative;
+    width: 50%;
+    height: 10%;
+    background-color: darkcyan;
+    margin: 0 0 0 15%;
+    left: 10%;
+}
+
+.col_2200::before {
+    width: 100%;
+    content: "Восприятие и вним...";
+    position: absolute;
+    top: -2px;
+    left: -8.3vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.span_1{
+    position: relative;
+    left: 0.5vw;
+    font-size: 0.7vw;
+    top: -10%;
+}
+
+.row_down_left_down h2{
+    font-size: 1vw;
+    text-align: center;
+}
+.span_round{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    display: inline-block;
+    margin-bottom: 1px;
+}
+.progress_bars{
+    margin: 0 0 5% 5%;
+    height: 70% !important;
+    position: relative;
+}
+.progress_bars::before{
+    position: absolute;
+    content: "Должность";
+    color: black;
+    left: -8%;
+    top: 50%;
+    transform: rotate(270deg);
+    font-size: 0.7vw;
+}
+.progress1{
+    max-width: 70% !important;
+    height: 0.9vw !important;
+    position: relative;
+    left: 0;
+
+}
+.span_w_1{
+    font-size: 0.7vw;
+    margin: 0 0 0 5%;
+    
+}
+.span_w_2{
+    font-size: 0.7vw;
+    margin: 0 0 0 5%;
+    
+}
+.span_w_3{
+    font-size: 0.7vw;
+    margin: 0 0 0 5%;
+}
+.span_w_4{
+    font-size: 0.7vw;
+    margin: 0 0 0 5%;
+}
+.span_w_5{
+    font-size: 0.7vw;
+    margin: 0 0 0 5%;
+}
+.progress_bar_1{
+    background-color: rgb(179, 148, 247) !important;
+}
+.progress_bar_2{
+    background-color: rgb(228, 148, 240) !important;
+}
+.progress2{
+    max-width: 70% !important;
+    position: relative;
+    left: 0%;
+    height: 0.9vw !important;
+}
+.progress3{
+    max-width: 70% !important;
+    position: relative;
+    left: 0%;
+    height: 0.9vw !important;
+}
+.progress4{
+    max-width: 70% !important;
+    position: relative;
+    left: 0%;
+    height: 0.9vw !important;
+}
+.progress5{
+    max-width: 70% !important;
+    position: relative;
+    left: 0%;
+    height: 0.9vw !important;
+}
+.row_down_middle h2{
+    font-size: 1.2vw;
+    text-align: center;
+}
+.row_down_middle h3{
+    position: relative;
+    font-size: 0.8vw;
+    text-align: center;
+    top: 1.5vw;
+}
+.cols4 {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 70%;
+    max-width: 100% !important; 
+    align-items: flex-start;
+    position: relative;
+}
+.cols4::before{
+    position: absolute;
+    content: "Название теста";
+    color: black;
+    left: -10%;
+    top: 45%;
+    transform: rotate(270deg);
+    font-size: 0.7vw;
+}
+.col_1111 {
+    position: relative;
+    width: 60%;
+    height: 20%;
+    background-color: darkcyan;
+    margin: 0 0 0 40%;
+}
+
+.col_1111::before {
+    width: 100%;
+    content: "Коммуникативны...";
+    position: absolute;
+    top: 24px;
+    left: -7.5vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_2222 {
+    position: relative;
+    width: 50%;
+    height: 20%;
+    background-color: darkcyan;
+    margin: 0 0 0 40%;
+}
+
+.col_2222::before {
+    width: 100%;
+    content: "Восприятие и вн...";
+    position: absolute;
+    top: 24px;
+    left: -7.5vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_3333 {
+    position: relative;
+    width: 45%;
+    height: 20%;
+    background-color: darkcyan;
+    margin: 0 0 0 40%;
+}
+
+.col_3333::before {
+    width: 100%;
+    content: "Аналитическое м...";
+    position: absolute;
+    top: 24px;
+    left: -7.5vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_4444 {
+    position: relative;
+    width: 40%;
+    height: 20%;
+    background-color: darkcyan;
+    margin: 0 0 0 40%;
+}
+
+.col_4444::before {
+    width: 100%;
+    content: "Отношения к обя...";
+    position: absolute;
+    top: 24px;
+    left: -7.5vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_5555 {
+    position: relative;
+    width: 35%;
+    height: 20%;
+    background-color: darkcyan;
+    margin: 0 0 0 40%;
+}
+
+.col_5555::before {
+    width: 100%;
+    content: "Мотивация успеш...";
+    position: absolute;
+    top: 24px;
+    left: -7.5vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_6666 {
+    position: relative;
+    width: 30%;
+    height: 20%;
+    background-color: darkcyan;
+    margin: 0 0 0 40%;
+}
+
+.col_6666::before {
+    width: 100%;
+    content: "Лидерские компе...";
+    position: absolute;
+    top: 24px;
+    left: -7.5vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_7777 {
+    position: relative;
+    width: 20%;
+    height: 20%;
+    background-color: darkcyan;
+    margin: 0 0 0 40%;
+}
+
+.col_7777::before {
+    width: 100%;
+    content: "Готовность к риску";
+    position: absolute;
+    top: 24px;
+    left: -7.5vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.span_11{
+    position: relative;
+    left: 0.5vw;
+    font-size: 0.8vw;
+    top: 0.75vw;
+}
+.row_down_right h2{
+    text-align: center;
+    font-size: 1.2vw;
+}
+.row_down_right h3{
+    position: relative;
+    top: 13vw;
+    font-size: 0.8vw;
+    text-align: center;
+}
+.cols5 {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 70%;
+    max-width: 78% !important; 
+    align-items: flex-start;
+    position: relative;
+    top: 25%;
+}
+.cols5::before{
+    position: absolute;
+    content: "Тест";
+    color: black;
+    left: -27%;
+    top: 45%;
+    transform: rotate(270deg);
+    font-size: 0.7vw;
+}
+.margin_left{
+    margin-left: 20%;
+}
+.col_11111 {
+    position: relative;
+    width: 90%;
+    height: 20%;
+    background-color: darkcyan;
+    margin: 0 0 0 28%;
+}
+
+.col_11111::before {
+    width: 100%;
+    content: "Кейс №3";
+    position: absolute;
+    top: 24px;
+    left: -3.5vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_22222 {
+    position: relative;
+    width: 90%;
+    height: 20%;
+    background-color: darkcyan;
+    margin: 0 0 0 28%;
+}
+
+.col_22222::before {
+    width: 100%;
+    content: "Кейс №1";
+    position: absolute;
+    top: 24px;
+    left: -3.5vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.col_33333 {
+    position: relative;
+    width: 80%;
+    height: 20%;
+    background-color: darkcyan;
+    margin: 0 0 0 28%;
+}
+
+.col_33333::before {
+    width: 100%;
+    content: "Кейс №2";
+    position: absolute;
+    top: 24px;
+    left: -3.5vw;
+    color: black;
+    font-size: 0.8vw;
+}
+.span_111{
+    position: relative;
+    left: 0.5vw;
+    font-size: 0.8vw;
+    top: 1.2vw;
+}
+.span_222{
+    position: relative;
+    left: 0.5vw;
+    font-size: 0.8vw;
+    top: 1.2vw;
+}
+.span_333{
+    position: relative;
+    left: 0.5vw;
+    font-size: 0.8vw;
+    top: 1.2vw;
+}
+.chart-skills {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+.chart-skills *,
+.chart-skills::before {
+    box-sizing: border-box;
+}
+
+/* CHART-SKILLS STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.chart-skills {
+    position: relative;
+    height: 7vw;
+    overflow: hidden;
+    top: 0%;    
+    left: -2%;
+}
+
+.chart-skills::before,
+.chart-skills::after {
+    position: absolute;
+}
+
+.chart-skills::before {
+    content: '';
+    width: inherit;
+    height: inherit;
+    border: 2.2vw solid rgba(0, 0, 0, 0.3);
+    border-bottom: none;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    left: 25%;
+    width: 55%;
+    height: 92.95%;
+    top: 7%;
+
+}
+
+.chart-skills::after {
+    content: '0.63';
+    left: 52%;
+    top: 80%;
+    bottom: 1.5vw;
+    transform: translateX(-50%);
+    font-size: 0.9vw;
+    font-weight: bold;
+    color: cadetblue;
+}
+
+.chart-skills li {
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    width: inherit;
+    height: inherit;
+    border: 2.2vw solid;
+    border-top: none;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    transform-origin: 50% 0%;
+    transform-style: preserve-3d;
+    width: 55%;
+    height: 92.95%;
+}
+
+.chart-skills li:nth-child(1) {
+    z-index: 4;
+    border-color: #0dcaf0;
+    transform: rotate(180deg);
+}
+
+.links{
+    position: fixed;
+    left: 48vw;
+    bottom: 0vw;
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 1vw;
+
+}
+.color_left{
+    color: #ccc;
+    margin-right: 5px;
+}
+.links a{
+    text-decoration:none;
+    color: black;
+    margin-left: 5px;
+
+}

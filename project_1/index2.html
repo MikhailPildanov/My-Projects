@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Page_2</title>
+</head>
+<body>
+    
+    <div class="container-fluid row heightVH35">
+      <div class="col-3 border">
+          <div class="row border heightVH12 bg-light row_up_left_up">
+            <h4>Сотрудники</h4>
+            <div class="dropdown">
+                <select name="select1" class="btn btn-primary dropdown-toggle col-12">
+                   <option class="dropdown-item color1 bg-dark" selected="selected">Все
+                   </option>
+                   <option class="dropdown-item color1 bg-dark">Заведующий сектором информационных систем и дистанционного образования</option>
+                   <option class="dropdown-item color1 bg-dark">Инженер службы/участка технологической связи</option>
+                   <option class="dropdown-item color1 bg-dark">Инженер-программист</option>
+                   <option class="dropdown-item color1 bg-dark">Специалист по кадрам</option>
+                   <option class="dropdown-item color1 bg-dark">Юрист-консультант</option>
+                </select>  
+                </div>
+          </div>
+
+          <div class="row border heightVH12 bg-light row_up_left_mid">
+            <h4>Кейсы</h4>
+            <div class="dropdown">
+                <select name="select1" class="btn btn-primary dropdown-toggle col-12">
+                   <option class="dropdown-item color1 bg-dark" selected="selected">Все
+                   </option>
+                   <option class="dropdown-item color1 bg-dark">Кейс №1</option>
+                   <option class="dropdown-item color1 bg-dark">Кейс №2</option>
+                   <option class="dropdown-item color1 bg-dark">Кейс №3</option>
+                </select>  
+                </div>
+          </div>
+
+          <div class="row heightVH12 bg-light row_up_left_down">
+            <h4>Уровень благонадежности</h4>
+            <div class="dropdown">
+                <select name="select1" class="btn btn-primary dropdown-toggle col-12">
+                   <option class="dropdown-item color1 bg-dark" selected="selected">Все
+                   </option>
+                   <option class="dropdown-item color1 bg-dark">Больше нуля</option>
+                   <option class="dropdown-item color1 bg-dark">Не прошел</option>
+                   <option class="dropdown-item color1 bg-dark">Не успел</option>
+                   <option class="dropdown-item color1 bg-dark">Нулевой результат</option>
+                </select>  
+                </div>
+          </div>
+      </div>
+    
+      <div class="col-3">
+          <div class="row border heightVH18 bg-light row_up_mid_left_up">
+            <h1>0</h1>
+            <h2>Количество пройденных кейсов</h2>
+          </div>
+
+          <div class="row border heightVH18 bg-light row_up_mid_left_down overflow-auto">
+            <h3>Средний результат кейсов</h3>
+            <ul class="chart-skills">
+              <li>
+              </li>
+           </ul>
+        </div>
+      </div>
+
+      <div class="col-3 border">
+          <div class="row heightVH35 bg-light row_up_mid_right">
+            <h3> Категории сотрудников</h3>
+            <div class="cols">
+                <div class="col_1 bg-info"> </div>
+                <div class="col_2 bg-info"> </div>
+                <div class="col_3 bg-info"> </div>
+             </div>
+             <h4> Категории</h4>
+          </div>
+
+      </div>
+
+      <div class="col-3">
+        <div class="row border heightVH35 bg-light row_up_right">
+            <h2> Средний результат прохождения кейса по сотруднику</h2>
+            <div class="cols2">
+                <div class="col_11 bg-info"> <span class="span_main">0,66</span> </div>
+                <div class="col_22 bg-info"> <span class="span_main">0,65</span> </div>
+                <div class="col_33 bg-info"> <span class="span_main">0,63</span> </div>
+                <div class="col_44 bg-info"> <span class="span_main">0,61</span> </div>
+                <div class="col_55 bg-info"> <span class="span_main">0,60</span> </div>
+             </div>
+             <h3>Должность</h3>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container-fluid row heightVH65">
+        <div class="col-6">
+            <div class="row border heightVH28 bg-light row_down_left_up">
+                <h2>Средний результат прохождения по кейсам</h2>
+                <div class="cols3">
+                   <div class="col_111 bg-info"> <span class="span_1">0.61</span> </div>
+                   <div class="col_222 bg-info"> <span class="span_2">0.56</span> </div>
+                   <div class="col_333 bg-info"> <span class="span_3">0.41</span> </div>
+                </div>
+            </div>
+            <div class="row border heightVH28 bg-light row_down_left_down overflow-auto">
+                <h2>Количество прохождений по сотрудникам</h2>
+              <div class="progress_bars ">
+                <span class="d-inline-block text-truncate span_w_1" style="max-width: 150px;">
+                    Инженер службы/участка технологической связи
+                </span>
+                <div class="progress progress1">
+                    <div class="progress-bar progress_bar_1" role="progressbar" style="width: 50%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar progress_bar_2" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="d-inline-block text-truncate span_w_2" style="max-width: 150px;">
+                    Инженер-программист
+                </span>
+                  <div class="progress progress2">
+                    <div class="progress-bar progress_bar_1" role="progressbar" style="width: 50%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar progress_bar_2" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="d-inline-block text-truncate span_w_3" style="max-width: 150px;">
+                    Специалист по кадрам
+                </span>
+                  <div class="progress progress3">
+                    <div class="progress-bar progress_bar_1" role="progressbar" style="width: 50%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar progress_bar_2" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="d-inline-block text-truncate span_w_4" style="max-width: 150px;">
+                    Юрист-консультант
+                </span>
+                  <div class="progress progress4">
+                    <div class="progress-bar progress_bar_1" role="progressbar" style="width: 50%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar progress_bar_2" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span class="d-inline-block text-truncate span_w_5" style="max-width: 150px;">
+                    Заведующий сектором информационных систем и дистанционного образования
+                </span>
+                  <div class="progress progress5">
+                    <div class="progress-bar progress_bar_1" role="progressbar" style="width: 50%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar progress_bar_2" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-3">
+            <div class="row border bg-light heightVH65 row_down_middle">
+                <h2> Не вовремя пройденные кейсы</h2>
+                <div class="cols4">
+                    <div class="col_1111 bg-info"> <span class="span_11">2</span> </div>
+                    <div class="col_2222 bg-info"> <span class="span_22">2</span> </div>
+                    <div class="col_3333 bg-info"> <span class="span_33">2</span> </div>
+                 </div>
+                 <h3> Количество</h3>
+            </div>
+        </div>
+
+        <div class="col-3">
+            <div class="row border bg-light heightVH65 row_down_right">
+                <h2> Не пройденные кейсы</h2>
+                <div class="cols5">
+                    <div class="col_11111 bg-info"> <span class="span_111">13</span> </div>
+                    <div class="col_22222 bg-info"> <span class="span_222">13</span> </div>
+                    <div class="col_33333 bg-info"> <span class="span_333">11</span> </div>
+                 </div>
+                 <h3> Количество</h3>
+            </div>
+        </div>
+        
+    </div>
+    <div class="links">
+      <a class="color2" href="index1.html">
+        <
+        </a>
+      <p class="color2"> 2 из 4</p>
+      <a class="color2" href="index3.html">
+      >
+      </a>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
